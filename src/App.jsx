@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import SurveyCard from './components/SurveyCard';
-import BrandBriefView from './components/BrandBriefView';
-import BackendModal from './components/BackendModal';
-import GlobalAuditModal from './components/GlobalAuditModal';
-import PresetModal from './components/PresetModal';
-import HelpModal from './components/HelpModal';
-import Toast from './components/Toast';
+import SurveyCard from './components/SurveyCard.jsx';
+import BrandBriefView from './components/BrandBriefView.jsx';
+import BackendModal from './components/BackendModal.jsx';
+import GlobalAuditModal from './components/GlobalAuditModal.jsx';
+import PresetModal from './components/PresetModal.jsx';
+import HelpModal from './components/HelpModal.jsx';
+import Toast from './components/Toast.jsx';
 import { getQuestionsForLanguage, DEMO_PRESETS } from './data/questions';
 import { loadSavedState, saveState, clearSavedState } from './utils/storage';
 import { toggleMute, getMuteState, playKeySound } from './utils/soundEffects';
